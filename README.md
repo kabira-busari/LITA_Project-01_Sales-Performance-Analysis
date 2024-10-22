@@ -75,7 +75,7 @@ Here, I analyzed the store's monthly sales trends throughout the year, helping t
 
 #### 1.3.4 Average Sales per Product
 
-
+![Average Sales by Product](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Average%20Sales%20by%20Product%20-%20Chart.png?raw=true)
 
 **Key Findings and Interpretation**
 
