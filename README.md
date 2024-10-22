@@ -52,7 +52,7 @@ These findings suggest that **Shoes** and **Shirts** are the most critical produ
 
 #### 1.3.2 Total Sales by Region
 
-![Total Sales by Region](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Total%20Sales%20by%20Region%20Pivot-Table.png?raw=true)
+![Sales Revenue by Region](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Sales%20Revenue%20by%20Region.png?raw=true)
 
 This report outlines the revenue generated from each region, allowing us to understand which geographical areas are performing the best in terms of sales.
 
