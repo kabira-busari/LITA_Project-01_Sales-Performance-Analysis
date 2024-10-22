@@ -36,9 +36,10 @@ The Google Sheets analysis was conducted to explore sales data and generate key 
    - Calculated total sales by product, total revenue by region, and average sales per product.
   
 ### 1.3 Key Reports
+
 #### 1.3.1 Total Sales by Product
 
-![Total Sales by Product](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Total%20Sales%20by%20Product.png?raw=true)
+![Total Sales by Product](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Sales%20%25%20by%20Product%20-%20Chart.png?raw=true)
 
 
 **Key Findings and Interpretation**:
@@ -49,15 +50,17 @@ Other products, such as **Gloves** and **Hat**, generated **$296,900** and **$31
 
 The products with the lowest sales were **Jacket** and **Socks**, with revenue figures of **$208,230** and **$180,785**, contributing **9.9%** and **8.6%** to total sales, respectively. These lower figures suggest there may be opportunities to improve the sales of these products, possibly through more targeted marketing or adjusted pricing strategies.
 
+
 #### 1.3.2 Total Sales by Region
 
 ![Sales Revenue by Region](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Sales%20by%20Region%20-%20Chart.png?raw=true)
 
 **Key Findings and Interpretation**:
 
-This report outlines the revenue generated from each region, allowing us to understand which geographical areas are performing the best in terms of sales. The analysis reveals that the South region generated the highest total sales with $927,820, accounting for a significant portion of the overall revenue. The East and North regions also contributed notably, with $485,925 and $387,000, respectively. In contrast, the West region recorded the lowest sales at $300,345.
+This report outlines the revenue generated from each region, allowing us to understand which geographical areas are performing the best in terms of sales. The analysis reveals that the **South** region generated the highest total sales with **$927,820**, accounting for a significant portion of the overall revenue. The **East** and **North** regions also contributed notably, with **$485,925** and **$387,000**, respectively. In contrast, the **West** region recorded the lowest sales at **$300,345**.
 
-This indicates that the South region is a strong performer, likely due to a combination of factors such as higher customer demand, better product availability, or effective marketing. The East and North regions, though still performing reasonably well, lag behind the South. West has the lowest total sales, suggesting potential areas for improvement, such as enhancing product visibility, improving regional marketing strategies, or boosting customer engagement efforts in that region.
+This indicates that the **South** region is a strong performer, likely due to a combination of factors such as higher customer demand, better product availability, or effective marketing. The **East** and **North** regions, though still performing reasonably well, lag behind the **South**. **West** has the lowest total sales, suggesting potential areas for improvement, such as enhancing product visibility, improving regional marketing strategies, or boosting customer engagement efforts in that region.
+
 
 #### 1.3.3 Monthly Sales Trends
 This report tracks the company's sales performance across different months, helping to identify periods of high and low sales activity.
