@@ -1,4 +1,4 @@
-# Sales Performance Analysis for a Retail Store
+## Sales Performance Analysis for a Retail Store
 
 ### 1.1 Introduction
 This project involves analyzing the sales performance of a retail store to uncover key insights such as top-selling products, regional performance, and monthly sales trends. The objective is to create an interactive **Power BI** dashboard that highlights these findings, providing a visual representation of the store's sales data. 
