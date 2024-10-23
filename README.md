@@ -28,10 +28,10 @@ The Google Sheets analysis was conducted to explore sales data and generate key 
 
 ### 1.2 Methodology
 - **1**.  Loaded the sales data into Google Sheets and ensured all necessary columns were included, duplicate were removed, and the columns were properly formated and cleaned. 
-- 2.  Created pivot tables to summarize total sales by product, region, and monthly trends.
-- 3.  Used formula such as AVERAGEIF to calculate metrics like average sales per product and average revenue by region.
-- 4.  Visualized the results using bar charts, pie charts and line charts for better clarity and presentation.
-- 5.  Applied filters and slicers to enable interactive data exploration.
+- **2**.  Created pivot tables to summarize total sales by product, region, and monthly trends.
+- **3**.  Used formula such as AVERAGEIF to calculate metrics like average sales per product and average revenue by region.
+- **4**.  Visualized the results using bar charts, pie charts and line charts for better clarity and presentation.
+- **5**.  Applied filters and slicers to enable interactive data exploration.
   
 ### 1.3 Key Reports
 
@@ -124,12 +124,12 @@ The analysis provides clear guidance on where the business can focus to optimize
 PostgreSQL was used to perform more advanced queries on the dataset, allowing us to extract insights that could not be easily calculated in Google Sheets. Below are some of the key questions answered using SQL queries and the insights they provided.
 
 ### 1.2 Methodology
-**1.** - Loaded the sales dataset into PostgreSQL and conducted initial queries to explore its structure, ensuring all necessary columns were present.
-Employed SQL queries to calculate key metrics, including total sales and revenue, using functions like SUM, COUNT, and GROUP BY.
-Applied date filtering with EXTRACT and DATE_TRUNC to focus on specific time periods, such as the current year and last quarter.
-Utilized ORDER BY and LIMIT to rank products, regions, and customers based on performance indicators.
-Implemented subqueries to identify products with no sales in the last quarter and calculate regional sales percentages.
-Analyzed the data to derive actionable insights, highlighting top-performing products and areas for improvement.
+- **1** Loaded the sales dataset into PostgreSQL and conducted initial queries to explore its structure, ensuring all necessary columns were present.
+- **2** Employed SQL queries to calculate key metrics, including total sales and revenue, using functions like SUM, COUNT, and GROUP BY.
+- **3** Applied date filtering with EXTRACT and DATE_TRUNC to focus on specific time periods, such as the current year and last quarter.
+- **4** Utilized ORDER BY and LIMIT to rank products, regions, and customers based on performance indicators.
+- **5** Implemented subqueries to identify products with no sales in the last quarter and calculate regional sales percentages.
+- **6** Analyzed the data to derive actionable insights, highlighting top-performing products and areas for improvement.
 
 ### 1.3 Key Reports
 #### 1.3.1 Total Sales for Each Product Category
