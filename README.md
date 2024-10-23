@@ -250,7 +250,7 @@ Shoes were the top-selling product by units and revenue, while Jackets and Socks
 Notably, several products, including Socks and Jackets, had no sales in the last quarter, which may reflect declining demand or other issues requiring further exploration.
 
 ### 1.5 SQL Scripts
-[View SQL Scripts]()
+[View SQL Scripts](LITA_Sales_Database_PostgreSQL.sql)
 
 
 
@@ -258,6 +258,8 @@ Notably, several products, including Socks and Jackets, had no sales in the last
 
 ---
 ## Power BI
+### 1.1 Objectives
+
 
 
 
