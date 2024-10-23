@@ -27,12 +27,11 @@ You can download the sales dataset here - [Download the Sales Data Dataset](http
 The Google Sheets analysis was conducted to explore sales data and generate key insights using pivot tables, charts, and formulas. The analysis focused on understanding product performance, regional sales, monthly sales trends, average sales per product, and average sales per region.
 
 ### 1.2 Methodology
-1. **Data Loading**: Imported the sales data into Google Sheets and clean it.
-2. **Pivot Tables**:
-   - Created pivot tables to summarize total sales by product, region, and month.
-   - Summarized total revenue by region and identified monthly sales trends.
-3. **Formulas**:
-   - Calculated total sales by product, total revenue by region, and average sales per product.
+- 1.  Loaded the sales data into Google Sheets and ensured all necessary columns were included, duplicate were removed, and the columns were properly formated and cleaned. 
+- 2.  Created pivot tables to summarize total sales by product, region, and monthly trends.
+- 3.  Used formula such as AVERAGEIF to calculate metrics like average sales per product and average revenue by region.
+- 4.  Visualized the results using bar charts, pie charts and line charts for better clarity and presentation.
+- 5.  Applied filters and slicers to enable interactive data exploration.
   
 ### 1.3 Key Reports
 
@@ -57,7 +56,6 @@ This report outlines the revenue generated from each region, allowing us to unde
 - **West** had the lowest sales at **$300,345**.
 
 Focus on expanding efforts in the **South** while exploring growth opportunities in the **West**.
-
 
 #### 1.3.3 Monthly Sales Trends
 
@@ -232,6 +230,14 @@ WHERE product NOT IN (
 - The following products recorded no sales in the last quarter: **Socks**, **Gloves**, **Shirt**, **Jacket**.
 
 The lack of sales for **Socks**, **Gloves**, **Shirt**, and **Jacket** over the last quarter suggests these items may be falling out of demand or facing stock or marketing issues. Further investigation is required to determine the root cause. Actions such as running targeted promotions, adjusting pricing, or reviewing product availability can help revive sales for these items and prevent inventory from stagnating. Monitoring these products more closely in the next quarter could provide insights into whether the lack of sales is a temporary trend or indicative of a long-term decline in demand.
+
+
+
+
+
+---
+## Power BI
+
 
 
 
