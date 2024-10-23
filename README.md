@@ -27,11 +27,11 @@ You can download the sales dataset here - [Download the Sales Data Dataset](http
 The Google Sheets analysis was conducted to explore sales data and generate key insights using pivot tables, charts, and formulas. The analysis focused on understanding product performance, regional sales, monthly sales trends, average sales per product, and average sales per region.
 
 ### 1.2 Methodology
-- **1**.  Loaded the sales data into Google Sheets and ensured all necessary columns were included, duplicate were removed, and the columns were properly formated and cleaned. 
-- **2**.  Created pivot tables to summarize total sales by product, region, and monthly trends.
-- **3**.  Used formula such as AVERAGEIF to calculate metrics like average sales per product and average revenue by region.
-- **4**.  Visualized the results using bar charts, pie charts and line charts for better clarity and presentation.
-- **5**.  Applied filters and slicers to enable interactive data exploration.
+-   Loaded the sales data into Google Sheets and ensured all necessary columns were included, duplicate were removed, and the columns were properly formated and cleaned. 
+-   Created pivot tables to summarize total sales by product, region, and monthly trends.
+-   Used formula such as AVERAGEIF to calculate metrics like average sales per product and average revenue by region.
+-   Visualized the results using bar charts, pie charts and line charts for better clarity and presentation.
+-   Applied filters and slicers to enable interactive data exploration.
   
 ### 1.3 Key Reports
 
@@ -112,7 +112,9 @@ From the detailed analysis of the sales data, several key insights have emerged:
 - The West region has the lowest average sales at $121.25, revealing opportunities for growth by targeting larger transactions through marketing initiatives or adjusting the product mix.
 
 ### 1.5 Conclusion
-The analysis provides clear guidance on where the business can focus to optimize revenue: prioritizing high-demand products like Shoes and Shirts, capitalizing on the South region, and addressing weaker months and lower-performing products. By leveraging these insights, the business can make more informed decisions around marketing, inventory, and regional sales strategies.
+The analysis provides clear guidance on where the business can focus to optimize revenue: prioritizing high-demand products like Shoes and Shirts, capitalizing on the South region, and addressing weaker months and lower-performing products. 
+
+By leveraging these insights, the business can make more informed decisions around marketing, inventory, and regional sales strategies.
 
 
 
@@ -124,12 +126,12 @@ The analysis provides clear guidance on where the business can focus to optimize
 PostgreSQL was used to perform more advanced queries on the dataset, allowing us to extract insights that could not be easily calculated in Google Sheets. Below are some of the key questions answered using SQL queries and the insights they provided.
 
 ### 1.2 Methodology
-- **1** Loaded the sales dataset into PostgreSQL and conducted initial queries to explore its structure, ensuring all necessary columns were present.
-- **2** Employed SQL queries to calculate key metrics, including total sales and revenue, using functions like SUM, COUNT, and GROUP BY.
-- **3** Applied date filtering with EXTRACT and DATE_TRUNC to focus on specific time periods, such as the current year and last quarter.
-- **4** Utilized ORDER BY and LIMIT to rank products, regions, and customers based on performance indicators.
-- **5** Implemented subqueries to identify products with no sales in the last quarter and calculate regional sales percentages.
-- **6** Analyzed the data to derive actionable insights, highlighting top-performing products and areas for improvement.
+-  Loaded the sales dataset into PostgreSQL and conducted initial queries to explore its structure, ensuring all necessary columns were present.
+-  Employed SQL queries to calculate key metrics, including total sales and revenue, using functions like SUM, COUNT, and GROUP BY.
+-  Applied date filtering with EXTRACT and DATE_TRUNC to focus on specific time periods, such as the current year and last quarter.
+-  Utilized ORDER BY and LIMIT to rank products, regions, and customers based on performance indicators.
+-  Implemented subqueries to identify products with no sales in the last quarter and calculate regional sales percentages.
+-  Analyzed the data to derive actionable insights, highlighting top-performing products and areas for improvement.
 
 ### 1.3 Key Reports
 #### 1.3.1 Total Sales for Each Product Category
@@ -236,6 +238,13 @@ WHERE product NOT IN (
 - The following products recorded no sales in the last quarter: **Socks**, **Gloves**, **Shirt**, **Jacket**.
 
 The lack of sales for **Socks**, **Gloves**, **Shirt**, and **Jacket** over the last quarter suggests these items may be falling out of demand or facing stock or marketing issues. Further investigation is required to determine the root cause. Actions such as running targeted promotions, adjusting pricing, or reviewing product availability can help revive sales for these items and prevent inventory from stagnating. Monitoring these products more closely in the next quarter could provide insights into whether the lack of sales is a temporary trend or indicative of a long-term decline in demand.
+
+### 1.4 Conclusion
+The SQL analysis provided valuable insights into the retail store's sales performance, highlighting critical trends in products, regions, and monthly sales.
+
+Shoes were the top-selling product by units and revenue, while Jackets and Socks underperformed, signaling areas for improvement. The South region contributed nearly half of total sales, whereas the West region showed potential for growth with targeted marketing. February was the peak sales month, while April and July experienced lower sales, suggesting seasonality. 
+
+Notably, several products, including Socks and Jackets, had no sales in the last quarter, which may reflect declining demand or other issues requiring further exploration.
 
 
 
