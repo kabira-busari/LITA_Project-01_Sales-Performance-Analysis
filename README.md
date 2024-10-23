@@ -27,7 +27,7 @@ You can download the sales dataset here - [Download the Sales Data Dataset](http
 The Google Sheets analysis was conducted to explore sales data and generate key insights using pivot tables, charts, and formulas. The analysis focused on understanding product performance, regional sales, monthly sales trends, average sales per product, and average sales per region.
 
 ### 1.2 Methodology
-- 1.  Loaded the sales data into Google Sheets and ensured all necessary columns were included, duplicate were removed, and the columns were properly formated and cleaned. 
+- **1**.  Loaded the sales data into Google Sheets and ensured all necessary columns were included, duplicate were removed, and the columns were properly formated and cleaned. 
 - 2.  Created pivot tables to summarize total sales by product, region, and monthly trends.
 - 3.  Used formula such as AVERAGEIF to calculate metrics like average sales per product and average revenue by region.
 - 4.  Visualized the results using bar charts, pie charts and line charts for better clarity and presentation.
