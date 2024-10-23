@@ -135,6 +135,7 @@ ORDER BY total_units_sales DESC;
 - Shoes is the second most sold product, with 14,402 units.
 - Shirt and Gloves closely follow, with 12,388 units and 12,369 units, respectively.
 - Socks and Jacket have the lowest sales, with 7,921 units and 5,452 units, respectively.
+  
 Hat and Shoes are the most popular products in terms of units sold, indicating strong demand for these items. Shirt and Gloves also perform well, making them valuable products to maintain in inventory. Socks and Jackets have the lowest unit sales, suggesting potential areas for improvement in marketing, pricing, or product promotion to increase their demand.
 
 #### 1.3.2 Number of Sales Transactions in Each Region
@@ -146,13 +147,48 @@ GROUP BY region;
 - The East region recorded the highest number of transactions, with 2,483 sales transactions.
 - The North and South regions followed closely, with 2,481 and 2,480 transactions, respectively.
 - The West region had slightly fewer transactions, with 2,477 sales.
+  
 The data shows that all regions are performing similarly in terms of the number of sales transactions, with only slight variations. The close numbers across regions suggest that customer activity is consistent geographically, though focusing on specific strategies for East (the top performer) could yield further opportunities to enhance performance. The West region, while slightly behind, could still be an area to explore for optimization in terms of increasing the number of transactions.
 
-#### 1.3.3
+#### 1.3.3 Highest-Selling Product by Total Sales Value
+```
+SELECT product, SUM(revenue) AS total_sales_value
+FROM sales_data
+GROUP BY product
+ORDER BY total_sales_value DESC
+LIMIT 1;
+```
+- The Shoes category generated the highest total sales value, with a revenue of $613,380.
 
-#### 1.3.4
+Shoes is the top-performing product in terms of total sales value, indicating that it is not only popular in terms of units sold but also a key driver of overall revenue. The high sales value suggests that Shoes should remain a primary focus in both inventory management and marketing efforts to sustain or increase its contribution to total revenue.
 
-#### 1.3.5
+#### 1.3.4 Total Revenue per Product
+```
+SELECT product, SUM(revenue) AS total_revenue
+FROM sales_data
+GROUP BY product;
+```
+- Shoes generated the highest total revenue, bringing in $613,380.
+- Shirts followed with total revenue of $485,600.
+- Hat and Gloves generated $316,195 and $296,900, respectively, making them mid-tier products in terms of revenue.
+- Socks and Jacket had the lowest total revenue, with $180,785 and $208,230, respectively.
+
+Shoes and Shirts are the top revenue-generating products, confirming their high demand and strong contribution to the store's overall sales. Marketing and inventory management efforts should prioritize these items to maximize revenue. Socks and Jackets, on the other hand, are lower revenue performers. These products may benefit from strategic interventions such as pricing adjustments, improved marketing, or promotional efforts to increase their sales and revenue contribution.
+
+#### 1.3.5 Monthly Sales Totals for the Current Year (2024)
+```
+SELECT TO_CHAR(order_date, 'YYYY-MM') AS month, 
+       SUM(revenue) AS monthly_total_sales
+FROM sales_data
+WHERE EXTRACT(YEAR FROM order_date) = 2024
+GROUP BY TO_CHAR(order_date, 'YYYY-MM')
+ORDER BY month;
+```
+- February 2024 had the highest sales, generating $298,800, followed by January 2024 with $198,400.
+- August 2024 also performed well with $174,300 in sales.
+- The lowest sales were recorded in July 2024 ($37,200) and April 2024 ($39,440).
+
+February 2024 shows strong sales performance, potentially due to seasonality, promotions, or increased demand. This trend suggests that early-year months, especially January and February, are key periods for the store's revenue generation. The significant drop in sales during March, April, May, and July indicates a slower period for the store. This could be an opportunity to investigate the causes—such as market trends, product availability, or insufficient marketing—and strategize accordingly to boost sales in these months. August showed a rebound in sales, suggesting that mid-year promotions or campaigns could help sustain performance into the later months of the year.
 
 #### 1.3.6
 
