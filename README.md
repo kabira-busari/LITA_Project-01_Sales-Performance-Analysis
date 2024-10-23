@@ -116,6 +116,9 @@ The analysis provides clear guidance on where the business can focus to optimize
 
 By leveraging these insights, the business can make more informed decisions around marketing, inventory, and regional sales strategies.
 
+### 1.6 Data Sources
+[View Google Sheets Document](https://docs.google.com/spreadsheets/d/1g9MBjXv4gTeMqMNstW35lRaWTOv_Q-_taJ1SeN9F0P8/edit?usp=sharing)
+
 
 
 
@@ -245,6 +248,9 @@ The SQL analysis provided valuable insights into the retail store's sales perfor
 Shoes were the top-selling product by units and revenue, while Jackets and Socks underperformed, signaling areas for improvement. The South region contributed nearly half of total sales, whereas the West region showed potential for growth with targeted marketing. February was the peak sales month, while April and July experienced lower sales, suggesting seasonality. 
 
 Notably, several products, including Socks and Jackets, had no sales in the last quarter, which may reflect declining demand or other issues requiring further exploration.
+
+### 1.5 SQL Scripts
+[View SQL Scripts]()
 
 
 
