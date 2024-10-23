@@ -19,6 +19,8 @@ You can download the sales dataset here - [Download the Sales Data Dataset](http
 
 
 
+
+
 ---
 ## Google Sheets Analysis
 ### 1.1 Objective
@@ -116,6 +118,8 @@ The analysis provides clear guidance on where the business can focus to optimize
 
 
 
+
+
 ---
 ## SQL Queries Analysis
 ### 1.1 Objective
@@ -131,12 +135,12 @@ FROM sales_data
 GROUP BY product
 ORDER BY total_units_sales DESC;
 ```
-- Hat is the top-selling product in terms of units sold, with a total of 15,929 units sold.
-- Shoes is the second most sold product, with 14,402 units.
-- Shirt and Gloves closely follow, with 12,388 units and 12,369 units, respectively.
-- Socks and Jacket have the lowest sales, with 7,921 units and 5,452 units, respectively.
+- **Hat** is the top-selling product in terms of units sold, with a total of **15,929** units sold.
+- **Shoes** is the second most sold product, with **14,402** units.
+- **Shirt** and **Gloves** closely follow, with **12,388** units and **12,369** units, respectively.
+- **Socks** and **Jacket** have the lowest sales, with **7,921** units and **5,452** units, respectively.
   
-Hat and Shoes are the most popular products in terms of units sold, indicating strong demand for these items. Shirt and Gloves also perform well, making them valuable products to maintain in inventory. Socks and Jackets have the lowest unit sales, suggesting potential areas for improvement in marketing, pricing, or product promotion to increase their demand.
+**Hat** and **Shoes** are the most popular products in terms of units sold, indicating strong demand for these items. **Shirt** and **Gloves** also perform well, making them valuable products to maintain in inventory. **Socks** and **Jackets** have the lowest unit sales, suggesting potential areas for improvement in marketing, pricing, or product promotion to increase their demand.
 
 #### 1.3.2 Number of Sales Transactions in Each Region
 ```
@@ -144,11 +148,11 @@ SELECT region, COUNT(order_id) AS transaction_count
 FROM sales_data
 GROUP BY region;
 ```
-- The East region recorded the highest number of transactions, with 2,483 sales transactions.
-- The North and South regions followed closely, with 2,481 and 2,480 transactions, respectively.
-- The West region had slightly fewer transactions, with 2,477 sales.
+- The **East** region recorded the highest number of transactions, with **2,483** sales transactions.
+- The **North** and **South** regions followed closely, with **2,481** and **2,480** transactions, respectively.
+- The **West** region had slightly fewer transactions, with **2,477** sales.
   
-The data shows that all regions are performing similarly in terms of the number of sales transactions, with only slight variations. The close numbers across regions suggest that customer activity is consistent geographically, though focusing on specific strategies for East (the top performer) could yield further opportunities to enhance performance. The West region, while slightly behind, could still be an area to explore for optimization in terms of increasing the number of transactions.
+The data shows that all regions are performing similarly in terms of the number of sales transactions, with only slight variations. The close numbers across regions suggest that customer activity is consistent geographically, though focusing on specific strategies for **East** (the top performer) could yield further opportunities to enhance performance. The **West** region, while slightly behind, could still be an area to explore for optimization in terms of increasing the number of transactions.
 
 #### 1.3.3 Highest-Selling Product by Total Sales Value
 ```
@@ -158,9 +162,9 @@ GROUP BY product
 ORDER BY total_sales_value DESC
 LIMIT 1;
 ```
-- The Shoes category generated the highest total sales value, with a revenue of $613,380.
+- The **Shoes** category generated the highest total sales value, with a revenue of **$613,380**.
 
-Shoes is the top-performing product in terms of total sales value, indicating that it is not only popular in terms of units sold but also a key driver of overall revenue. The high sales value suggests that Shoes should remain a primary focus in both inventory management and marketing efforts to sustain or increase its contribution to total revenue.
+**Shoes** is the top-performing product in terms of total sales value, indicating that it is not only popular in terms of units sold but also a key driver of overall revenue. The high sales value suggests that **Shoes** should remain a primary focus in both inventory management and marketing efforts to sustain or increase its contribution to total revenue.
 
 #### 1.3.4 Total Revenue per Product
 ```
@@ -168,12 +172,12 @@ SELECT product, SUM(revenue) AS total_revenue
 FROM sales_data
 GROUP BY product;
 ```
-- Shoes generated the highest total revenue, bringing in $613,380.
-- Shirts followed with total revenue of $485,600.
-- Hat and Gloves generated $316,195 and $296,900, respectively, making them mid-tier products in terms of revenue.
-- Socks and Jacket had the lowest total revenue, with $180,785 and $208,230, respectively.
+- **Shoes** generated the highest total revenue, bringing in **$613,380**.
+- **Shirts** followed with total revenue of **$485,600**.
+- **Hat** and **Gloves** generated **$316,195** and **$296,900**, respectively, making them mid-tier products in terms of revenue.
+- **Socks** and **Jacket** had the lowest total revenue, with **$180,785** and **$208,230**, respectively.
 
-Shoes and Shirts are the top revenue-generating products, confirming their high demand and strong contribution to the store's overall sales. Marketing and inventory management efforts should prioritize these items to maximize revenue. Socks and Jackets, on the other hand, are lower revenue performers. These products may benefit from strategic interventions such as pricing adjustments, improved marketing, or promotional efforts to increase their sales and revenue contribution.
+**Shoes** and **Shirts** are the top revenue-generating products, confirming their high demand and strong contribution to the store's overall sales. Marketing and inventory management efforts should prioritize these items to maximize revenue. **Socks** and **Jackets**, on the other hand, are lower revenue performers. These products may benefit from strategic interventions such as pricing adjustments, improved marketing, or promotional efforts to increase their sales and revenue contribution.
 
 #### 1.3.5 Monthly Sales Totals for the Current Year (2024)
 ```
@@ -184,17 +188,50 @@ WHERE EXTRACT(YEAR FROM order_date) = 2024
 GROUP BY TO_CHAR(order_date, 'YYYY-MM')
 ORDER BY month;
 ```
-- February 2024 had the highest sales, generating $298,800, followed by January 2024 with $198,400.
-- August 2024 also performed well with $174,300 in sales.
-- The lowest sales were recorded in July 2024 ($37,200) and April 2024 ($39,440).
+- **February** had the highest sales, generating **$298,800**, followed by **January** with **$198,400**.
+- **August 2024** also performed well with **$174,300** in sales.
+- The lowest sales were recorded in **July ($37,200)** and **April ($39,440)**.
 
-February 2024 shows strong sales performance, potentially due to seasonality, promotions, or increased demand. This trend suggests that early-year months, especially January and February, are key periods for the store's revenue generation. The significant drop in sales during March, April, May, and July indicates a slower period for the store. This could be an opportunity to investigate the causes—such as market trends, product availability, or insufficient marketing—and strategize accordingly to boost sales in these months. August showed a rebound in sales, suggesting that mid-year promotions or campaigns could help sustain performance into the later months of the year.
+**February** shows strong sales performance, potentially due to seasonality, promotions, or increased demand. This trend suggests that early-year months, especially January and February, are key periods for the store's revenue generation. The significant drop in sales during **March**, **April**, **May**, and **July** indicates a slower period for the store. This could be an opportunity to investigate the causes—such as market trends, product availability, or insufficient marketing—and strategize accordingly to boost sales in these months. **August** showed a rebound in sales, suggesting that mid-year promotions or campaigns could help sustain performance into the later months of the year.
 
-#### 1.3.6
+#### 1.3.6 Top 5 Customers by Total Purchase Amount
+```
+SELECT customer_id, SUM(revenue) AS total_purchase_amount
+FROM sales_data
+GROUP BY customer_id
+ORDER BY total_purchase_amount DESC
+LIMIT 5;
+```
+- The **top 5 customers**—Cus1049, Cus1133, Cus1493, Cus1251, and Cus1257—all contributed the same total purchase amount of **$4,235**.
+- 
+Given that the **top 5 customers** all contributed the same total purchase amount, this suggests a trend of similar purchasing behaviors or transaction sizes among high-value customers. These customers represent an important segment for retention efforts, and personalized loyalty programs or promotions could encourage repeat purchases and further strengthen their relationship with the business. Understanding why these customers have reached the top (e.g., frequent purchases, high transaction values, or specific product preferences) can help inform future strategies aimed at targeting similar customer profiles.
 
-#### 1.3.7
+#### 1.3.7 Percentage of Total Sales Contributed by Each Region
+```
+SELECT region, SUM(revenue) AS region_sales,
+       (SUM(revenue) / (SELECT SUM(revenue) FROM sales_data) * 100) AS sales_percentage
+FROM sales_data
+GROUP BY region;
+```
+- The **South** region contributed the highest percentage of total sales, with **44.16%** of the overall revenue (**$927,820**).
+- The **East** region followed with **23.13%** of total sales, generating **$485,925**.
+- The **North** and **West** regions contributed **18.42%** (**$387,000**) and **14.29%** (**$300,345**) of total sales, respectively.
 
-#### 1.3.8
+The **South** region is the most significant contributor to total sales, accounting for nearly half of the revenue. This confirms the importance of continuing to focus marketing and sales efforts in this region to sustain growth. The **East** region also performs well, contributing over **23%** of total sales, making it a key region for further development. The lower contributions from the **North** and **West** regions suggest opportunities for expansion or improvement. Targeted strategies such as regional promotions, tailored product offerings, or customer engagement initiatives in these areas could help boost their sales percentages and overall contribution to total revenue.
+
+#### 1.3.8 Products with No Sales in the Last Quarter
+```
+SELECT DISTINCT product
+FROM sales_data
+WHERE product NOT IN (
+    SELECT product
+    FROM sales_data
+    WHERE order_date >= DATE_TRUNC('quarter', CURRENT_DATE) - INTERVAL '3 months'
+);
+```
+- The following products recorded no sales in the last quarter: **Socks**, **Gloves**, **Shirt**, **Jacket**.
+
+The lack of sales for **Socks**, **Gloves**, **Shirt**, and **Jacket** over the last quarter suggests these items may be falling out of demand or facing stock or marketing issues. Further investigation is required to determine the root cause. Actions such as running targeted promotions, adjusting pricing, or reviewing product availability can help revive sales for these items and prevent inventory from stagnating. Monitoring these products more closely in the next quarter could provide insights into whether the lack of sales is a temporary trend or indicative of a long-term decline in demand.
 
 
 
