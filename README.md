@@ -18,8 +18,8 @@ The analysis was carried out in three main steps:
 You can download the sales dataset here - [Download the Sales Data Dataset](https://docs.google.com/spreadsheets/d/1uX7hdUgaS2KxBFbtkl-cvrYSC24ZxpggIzeDtGaa34w/edit?usp=sharing).
 
 
----
 
+---
 ## Google Sheets Analysis
 ### 1.1 Objective
 The Google Sheets analysis was conducted to explore sales data and generate key insights using pivot tables, charts, and formulas. The analysis focused on understanding product performance, regional sales, monthly sales trends, average sales per product, and average sales per region.
@@ -113,3 +113,57 @@ From the detailed analysis of the sales data, several key insights have emerged:
 
 ### 1.5 Conclusion
 The analysis provides clear guidance on where the business can focus to optimize revenue: prioritizing high-demand products like Shoes and Shirts, capitalizing on the South region, and addressing weaker months and lower-performing products. By leveraging these insights, the business can make more informed decisions around marketing, inventory, and regional sales strategies.
+
+
+
+---
+## SQL Queries Analysis
+### 1.1 Objective
+PostgreSQL was used to perform more advanced queries on the dataset, allowing us to extract insights that could not be easily calculated in Google Sheets. Below are some of the key questions answered using SQL queries and the insights they provided.
+
+### 1.2 Methodology
+
+### 1.3 Key Reports
+#### 1.3.1 Total Sales for Each Product Category
+```
+SELECT product, SUM(quantity) AS total_units_sales
+FROM sales_data
+GROUP BY product
+ORDER BY total_units_sales DESC;
+```
+- Hat is the top-selling product in terms of units sold, with a total of 15,929 units sold.
+- Shoes is the second most sold product, with 14,402 units.
+- Shirt and Gloves closely follow, with 12,388 units and 12,369 units, respectively.
+- Socks and Jacket have the lowest sales, with 7,921 units and 5,452 units, respectively.
+Hat and Shoes are the most popular products in terms of units sold, indicating strong demand for these items. Shirt and Gloves also perform well, making them valuable products to maintain in inventory. Socks and Jackets have the lowest unit sales, suggesting potential areas for improvement in marketing, pricing, or product promotion to increase their demand.
+
+#### 1.3.2 Number of Sales Transactions in Each Region
+```
+SELECT region, COUNT(order_id) AS transaction_count
+FROM sales_data
+GROUP BY region;
+```
+- The East region recorded the highest number of transactions, with 2,483 sales transactions.
+- The North and South regions followed closely, with 2,481 and 2,480 transactions, respectively.
+- The West region had slightly fewer transactions, with 2,477 sales.
+The data shows that all regions are performing similarly in terms of the number of sales transactions, with only slight variations. The close numbers across regions suggest that customer activity is consistent geographically, though focusing on specific strategies for East (the top performer) could yield further opportunities to enhance performance. The West region, while slightly behind, could still be an area to explore for optimization in terms of increasing the number of transactions.
+
+#### 1.3.3
+
+#### 1.3.4
+
+#### 1.3.5
+
+#### 1.3.6
+
+#### 1.3.7
+
+#### 1.3.8
+
+
+
+
+
+
+
+
