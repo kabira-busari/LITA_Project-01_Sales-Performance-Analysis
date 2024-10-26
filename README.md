@@ -259,6 +259,54 @@ Notably, several products, including Socks and Jackets, had no sales in the last
 ---
 ## Power BI
 ### 1.1 Objectives
+This project aims to analyze and visualize the sales performance of a retail store. Using Power BI, the analysis covers key metrics such as total revenue, top-performing products, and regional sales distribution. The goal is to provide actionable insights to help optimize inventory, marketing strategies, and regional focus.
+
+### 1.2 Objectives
+The analysis addresses the following key questions:
+- What are the overall sales trends, and how do they fluctuate over time?
+- Which products are the top performers by total revenue?
+- How does sales distribution vary across different regions?
+- Who are the highest-value customers?
+
+### 1.3 Methodology
+#### 1.3.1 Data Import
+The data was imported into Power BI from Google Sheets and PostgreSQL database. Initial exploration helped us understand data columns such as `Product`, `Region`, `Order Date`, `Quantity`, and `Revenue`.
+
+#### 1.3.2 Data Transformation
+The dataset was cleaned and structured using the Power Query Editor to:
+- Filter unnecessary columns and rows.
+- Aggregate revenue data by month and region.
+- Create calculated columns for metrics like average revenue per transaction.
+
+#### 1.3.3 Visualization Design
+Visuals were selected to effectively answer the business questions:
+- **Line Chart** for monthly sales trends.
+- **Column Chart** for sales by product.
+- **Map** for regional sales distribution.
+- **Table** for top customers.
+
+### 1.4 Dashboard Walkthrough
+
+#### 1.4.1 Sales Overview
+
+![Sales Overview](link-to-sales-overview-image.png)
+
+The Sales Overview section gives a high-level snapshot of the total revenue and monthly sales trends. The **Line Chart** reveals peaks in February and August, indicating seasonality in customer purchasing patterns. The **Total Revenue Card** highlights total sales generated, giving stakeholders a quick performance metric.
+
+### 1.4.2 Top-Performing Products
+
+![Top Products](link-to-top-products-image.png)
+
+This **Column Chart** visualizes total revenue by product, showing that **Shoes** and **Shirts** are the top-performing items. This insight helps prioritize inventory and marketing for high-demand products. Meanwhile, **Socks** and **Jackets** have lower sales, suggesting potential areas for improvement in product positioning.
+
+### 1.4.3 Regional Breakdown
+
+![Regional Sales](link-to-regional-sales-image.png)
+
+The **Map and Donut Chart** provide a breakdown of sales by region. The **South** region is a standout performer, contributing 44% of total sales. This reinforces the importance of focusing on high-value regions while exploring growth opportunities in underperforming regions like the **West**.
+
+
+
 
 
 
