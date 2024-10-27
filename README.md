@@ -5,7 +5,7 @@
 - [Google Sheets Analysis](#google-sheets-analysis)
 - [SQL Queries Analysis](#sql-queries-analysis)
 - [Power BI Dashboard](#power-bi-dashboard)
-- [Analysis Results/Insights](#analysis-results/insights)
+- [Analysis Insights](#analysis-insights)
 - [Conclusion](#conclusion)
 
 
@@ -233,7 +233,7 @@ Create an interactive, visual summary of the analysis results.
 
 
 ---
-## Analysis Results/Insights
+## Analysis Insights
 #### 1 Product Performance:
 
 - Shoes and Shirts are top sellers and key revenue drivers, while Jackets and Socks underperform.
