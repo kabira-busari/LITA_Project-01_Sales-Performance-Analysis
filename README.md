@@ -259,35 +259,27 @@ Notably, several products, including Socks and Jackets, had no sales in the last
 ---
 ## Power BI
 ### 1.1 Objectives
-This project aims to analyze and visualize the sales performance of a retail store. Using Power BI, the analysis covers key metrics such as total revenue, top-performing products, and regional sales distribution. The goal is to provide actionable insights to help optimize inventory, marketing strategies, and regional focus.
+Using Power BI, I analyze and visualize the sales performance of the retail store. The analysis covers key metrics such as total revenue, top-performing products, and regional sales distribution.
 
 ### 1.2 Objectives
-The analysis addresses the following key questions:
 - What are the overall sales trends, and how do they fluctuate over time?
 - Which products are the top performers by total revenue?
 - How does sales distribution vary across different regions?
-- Who are the highest-value customers?
 
 ### 1.3 Methodology
 #### 1.3.1 Data Import
-The data was imported into Power BI from Google Sheets and PostgreSQL database. Initial exploration helped us understand data columns such as `Product`, `Region`, `Order Date`, `Quantity`, and `Revenue`.
+The data was imported into Power BI from Google Sheets and PostgreSQL database.
 
 #### 1.3.2 Data Transformation
-The dataset was cleaned and structured using the Power Query Editor to:
-- Filter unnecessary columns and rows.
-- Aggregate revenue data by month and region.
-- Create calculated columns for metrics like average revenue per transaction.
+The dataset was cleaned and structured using Power Query Editor by filtering out unnecessary columns, aggregating revenue by month and region, and creating calculated metrics like average revenue per transaction.
 
 #### 1.3.3 Visualization Design
-Visuals were selected to effectively answer the business questions:
 - **Line Chart** for monthly sales trends.
 - **Column Chart** for sales by product.
-- **Map** for regional sales distribution.
-- **Table** for top customers.
+- **Donught Chart** for regional sales distribution.
+- **Bar Chart** for average sales by product.
 
 ### 1.3 Dashboard Report
-
-The following **Power BI dashboard** provides a comprehensive overview of sales performance, including:
 - **Total Sales Overview**
 - **Top-Performing Products**
 - **Regional Breakdown**
