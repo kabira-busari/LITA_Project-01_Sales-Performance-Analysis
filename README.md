@@ -292,7 +292,7 @@ The following **Power BI dashboard** provides a comprehensive overview of sales 
 - **Top-Performing Products**
 - **Regional Breakdown**
 
-![Sales Performance Dashboard](Sales Performance Overview PowerBI Report.png)
+![Sales Performance Dashboard](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Sales%20Performance%20Overview%20PowerBI%20Report.png?raw=true))
 
 
 
