@@ -212,7 +212,7 @@ ORDER BY total_purchase_amount DESC
 LIMIT 5;
 ```
 - The **top 5 customers**—Cus1049, Cus1133, Cus1493, Cus1251, and Cus1257—all contributed the same total purchase amount of **$4,235**.
-- 
+
 Given that the **top 5 customers** all contributed the same total purchase amount, this suggests a trend of similar purchasing behaviors or transaction sizes among high-value customers. These customers represent an important segment for retention efforts, and personalized loyalty programs or promotions could encourage repeat purchases and further strengthen their relationship with the business. Understanding why these customers have reached the top (e.g., frequent purchases, high transaction values, or specific product preferences) can help inform future strategies aimed at targeting similar customer profiles.
 
 #### 1.3.7 Percentage of Total Sales Contributed by Each Region
@@ -257,7 +257,7 @@ Notably, several products, including Socks and Jackets, had no sales in the last
 
 
 ---
-## Power BI
+## Power BI Dashboard Report
 ### 1.1 Objectives
 Using Power BI, I analyze and visualize the sales performance of the retail store. The analysis covers key metrics such as total revenue, top-performing products, and regional sales distribution.
 
