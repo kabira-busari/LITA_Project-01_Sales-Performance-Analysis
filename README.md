@@ -5,7 +5,7 @@
 - [Google Sheets Analysis](#google-sheets-analysis)
 - [SQL Queries Analysis](#sql-queries-analysis)
 - [Power BI Dashboard](#power-bi-dashboard)
-- [Analysis Results/Insights](#analysis-results-/-insights)
+- [Analysis Results/Insights](#analysis-results/insights)
 - [Conclusion](#conclusion)
 
 
