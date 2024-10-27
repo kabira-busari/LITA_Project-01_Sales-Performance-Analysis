@@ -5,8 +5,6 @@ This project analyzes retail sales performance, focusing on top-selling products
 
 ## Table of Contents
 - [Project Objectives](#project-objectives)
-- [Tools Used](#tools-used)
-- [Dataset](#dataset)
 - [Google Sheets Analysis](#google-sheets-analysis)
 - [SQL Queries Analysis](#sql-queries-analysis)
 - [Power BI Dashboard](#power-bi-dashboard)
