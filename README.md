@@ -284,7 +284,7 @@ The dataset was cleaned and structured using Power Query Editor by filtering out
 - **Top-Performing Products**
 - **Regional Breakdown**
 
-![Sales Performance Dashboard](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Sales%20Performance%20Overview%20PowerBI%20Report.png?raw=true)
+![Sales Performance Dashboard](https://github.com/kabira-busari/LITA_Project-01_Sales-Performance-Analysis/blob/main/Sales%20Performance%20Overview%20Power%20BI%20Dashboard.png?raw=true)
 
 
 
