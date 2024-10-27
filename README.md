@@ -1,15 +1,20 @@
 # Sales Performance Analysis for a Retail Store
 
-## 1 Introduction
-This project analyzes retail sales performance, focusing on top-selling products, regional performance, and monthly sales trends. The objective is to build an interactive Power BI dashboard to present these findings, providing actionable insights to enhance sales strategies.
-
 ## Table of Contents
-- [Project Objectives](#project-objectives)
+- [Introduction](#introduction)
 - [Google Sheets Analysis](#google-sheets-analysis)
 - [SQL Queries Analysis](#sql-queries-analysis)
 - [Power BI Dashboard](#power-bi-dashboard)
-- [Insights](#insights)
+- [Analysis Results/Insights](#analysis-results-/-insights)
 - [Conclusion](#conclusion)
+
+
+
+
+
+---
+## Introduction
+This project analyzes retail sales performance, focusing on top-selling products, regional performance, and monthly sales trends. The objective is to build an interactive Power BI dashboard to present these findings, providing actionable insights to enhance sales strategies.
 
 ## 1.1 Project Objectives
 
@@ -228,7 +233,7 @@ Create an interactive, visual summary of the analysis results.
 
 
 ---
-## Insights
+## Analysis Results/Insights
 #### 1 Product Performance:
 
 - Shoes and Shirts are top sellers and key revenue drivers, while Jackets and Socks underperform.
@@ -253,7 +258,7 @@ Create an interactive, visual summary of the analysis results.
 
 
 ---
-## 5 Conclusion
+## Conclusion
 
 - Prioritize Shoes and Shirts in inventory and marketing.
 - Strengthen sales strategies in the West and low-performing months.
