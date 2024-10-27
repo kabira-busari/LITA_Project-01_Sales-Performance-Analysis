@@ -228,7 +228,7 @@ Create an interactive, visual summary of the analysis results.
 
 
 ---
-## Analysis Results / Insights
+## Insights
 #### 1 Product Performance:
 
 - Shoes and Shirts are top sellers and key revenue drivers, while Jackets and Socks underperform.
@@ -253,7 +253,7 @@ Create an interactive, visual summary of the analysis results.
 
 
 ---
-## 5. Conclusion
+## 5 Conclusion
 
 - Prioritize Shoes and Shirts in inventory and marketing.
 - Strengthen sales strategies in the West and low-performing months.
