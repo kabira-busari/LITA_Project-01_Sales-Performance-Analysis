@@ -285,28 +285,14 @@ Visuals were selected to effectively answer the business questions:
 - **Map** for regional sales distribution.
 - **Table** for top customers.
 
-### 1.4 Dashboard Walkthrough
+### 1.3 Dashboard Report
 
-#### 1.4.1 Sales Overview
+The following **Power BI dashboard** provides a comprehensive overview of sales performance, including:
+- **Total Sales Overview**
+- **Top-Performing Products**
+- **Regional Breakdown**
 
-![Sales Overview](link-to-sales-overview-image.png)
-
-The Sales Overview section gives a high-level snapshot of the total revenue and monthly sales trends. The **Line Chart** reveals peaks in February and August, indicating seasonality in customer purchasing patterns. The **Total Revenue Card** highlights total sales generated, giving stakeholders a quick performance metric.
-
-### 1.4.2 Top-Performing Products
-
-![Top Products](link-to-top-products-image.png)
-
-This **Column Chart** visualizes total revenue by product, showing that **Shoes** and **Shirts** are the top-performing items. This insight helps prioritize inventory and marketing for high-demand products. Meanwhile, **Socks** and **Jackets** have lower sales, suggesting potential areas for improvement in product positioning.
-
-### 1.4.3 Regional Breakdown
-
-![Regional Sales](link-to-regional-sales-image.png)
-
-The **Map and Donut Chart** provide a breakdown of sales by region. The **South** region is a standout performer, contributing 44% of total sales. This reinforces the importance of focusing on high-value regions while exploring growth opportunities in underperforming regions like the **West**.
-
-
-
+![Sales Performance Dashboard](path-to-your-image-file)
 
 
 
