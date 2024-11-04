@@ -156,7 +156,7 @@ GROUP BY product;
 - **Hat** and **Gloves** generated **$316,195** and **$296,900**, respectively, making them mid-tier products in terms of revenue.
 - **Socks** and **Jacket** had the lowest total revenue, with **$180,785** and **$208,230**, respectively.
 
-#### 3.5 Monthly Sales Totals
+#### 3.5 Monthly Sales Totals for the Current Year (2024)
 ```
 SELECT TO_CHAR(order_date, 'YYYY-MM') AS month, 
        SUM(revenue) AS monthly_total_sales
@@ -165,7 +165,7 @@ WHERE EXTRACT(YEAR FROM order_date) = 2024
 GROUP BY TO_CHAR(order_date, 'YYYY-MM')
 ORDER BY month;
 ```
-- **February** had the highest sales, generating **$298,800**, followed by **January** with **$198,400**.
+- **February** had the highest sales in 2024, generating **$298,800**, followed by **January** with **$198,400**.
 - **August 2024** also performed well with **$174,300** in sales.
 - The lowest sales were recorded in **July ($37,200)** and **April ($39,440)**.
 
