@@ -91,7 +91,7 @@ This metric calculates the average sales amount per transaction for each region,
 - **West** had the lowest average sales at **$121.25**.
 
 ### 4 Data Sources
-[View Google Sheets Document](https://docs.google.com/spreadsheets/d/1g9MBjXv4gTeMqMNstW35lRaWTOv_Q-_taJ1SeN9F0P8/edit?usp=sharing)
+[View Google Sheets Workbook](https://docs.google.com/spreadsheets/d/1g9MBjXv4gTeMqMNstW35lRaWTOv_Q-_taJ1SeN9F0P8/edit?usp=sharing)
 
 
 
