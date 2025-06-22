@@ -29,7 +29,7 @@ This project analyzes retail sales performance, focusing on top-selling products
 - **Power BI**: Create an interactive dashboard to visualize key metrics and trends.
 
 ## 1.3 Dataset
-You can download the sales dataset here - [Download the Sales Data Dataset](https://docs.google.com/spreadsheets/d/1uX7hdUgaS2KxBFbtkl-cvrYSC24ZxpggIzeDtGaa34w/edit?usp=sharing).
+You can download the sales dataset here - [Download the Sales Data Dataset](https://docs.google.com/spreadsheets/d/1g9MBjXv4gTeMqMNstW35lRaWTOv_Q-_taJ1SeN9F0P8/edit?usp=sharing).
 
 
 
